@@ -18,3 +18,9 @@ poetry run python app.py
 ```
 
 In a browser, navigate to `http://127.0.0.1:8050/`
+
+
+Or in a prod environment:
+```sh
+poetry run gunicorn app:server
+```
